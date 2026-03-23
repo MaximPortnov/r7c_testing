@@ -24,7 +24,7 @@ let isOnline = true;                                                 // flag int
 isLocal && checkInternet();                                          // check internet connection (only for desktop)
 let interval = null;                                                 // interval for checking internet connection (if it doesn't work on launch)
 const OOMarketplaceUrl = 'https://raw.githubusercontent.com/r7-consult/r7c-packages/main/';            // url to store (for local version store in desktop)
-const OOStoreUpdateUrl = 'https://raw.githubusercontent.com/MaximPortnov/r7c_testing/testing_test_for_delete/';                        // url to store plugin update source
+const OOStoreUpdateUrl = 'https://raw.githubusercontent.com/MaximPortnov/r7c_testing/refs/heads/testing_test_for_delete/';                        // url to store plugin update source
 const OOIO = 'https://github.com/r7-consult/r7c-packages/';                       // url to github repository (for links and discussions)
 const discussionsUrl = OOIO + 'discussions/';                        // discussions url
 let searchTimeout = null;                                            // timeot for search
