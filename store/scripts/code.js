@@ -3334,11 +3334,12 @@ function sortPlugins(bAll, bInst, type) {
 					let priorityA = getPluginStorePriority(a);
 					let priorityB = getPluginStorePriority(b);
 					if (priorityB !== priorityA)
-						return priorityB - priorityA;
+						return  priorityA - priorityB;
 					return a.name.localeCompare(b.name);
 				});
 			}
 			if (bInst) {
+                // TODO сделать такую же сортировку как и для всех плагинов
 				installedPlugins.sort(function(a, b) {
 					return a.obj.name.localeCompare(b.obj.name);
 				});
